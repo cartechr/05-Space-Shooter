@@ -28,7 +28,7 @@ class Player(arcade.Sprite):
         (self.center_x, self.center_y) = Starting_Location
 
 class Enemy(arcade.Sprite):
-    def __init__(self, position):
+    def __init__(self, position, velocity):
         #starts the alien enemy
         '''
         Parameter: position: (x,y) tuple
@@ -37,6 +37,7 @@ class Enemy(arcade.Sprite):
         super().__init__("assets/alien2_2.png", 2)
         self.hp = Enemy_Hp
         (self.center_x, self.center_y) = position
+        (self.dx, self.dy) = velocity
 
 class Enemy2(arcade.Sprite):
     def __init__(self, position):
@@ -91,9 +92,8 @@ class Window(arcade.Window):
         Set up enemies
         '''
         for i in range(Number_Of_Enemies):
-            x = random.randint(MARGIN, SCREEN_WIDTH - Margin)
+            x = random.randint(Margin, SCREEN_WIDTH - Margin)
             y = 900
-            dx = random.uniform(-In)
             enemy = Enemy((x,y))
             self.enemy_list.append(enemy)
         
@@ -124,6 +124,19 @@ class Window(arcade.Window):
                 y2 = 900
                 enemy = Enemy((x2,y2))
                 self.enemy_list.append(enemy)
+
+        self.enemy_list.update()
+        for b in self.enemy_list:
+            b.center_x = b.center_x + e.dx
+            e.center_y = e.center_y + e.dy
+            if e.center_x <= 0:
+                e.dx = abs(e.dx)
+            if e.center_x >= SCREEN_WIDTH:
+                e.dx = abs(e.dx) * -1
+            if e.center_y <= 750:
+                e.dy = abs(e.dy)
+            if e.center_y >= SCREEN_HEIGHT:
+                e.dy = abs(e.dy) * -1
 
             
     def on_draw(self):
