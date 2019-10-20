@@ -1,7 +1,7 @@
-Name:
-Date:
-Project: 
-Peer's repository: 
+Name: Braden Marksberry
+Date: 10/19
+Project: Space Shooter
+Peer's repository: https://github.com/cartechr/05-Space-Shooter.git
 
 
 
