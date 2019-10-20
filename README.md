@@ -1,31 +1,42 @@
-What I have here is a little space shooter game.
-Story
-1)The evil aliens have kidnapped your sister.
-2)You must fight them to get her back.
+Name:
+Date:
+Project: 
+Peer's repository: 
 
 
 
-Directions
-1)Use your mouse to move around and left click to shoot
-2)There are two levels to this game. The enemies on the level 2 will be a lot harder to destroy.
-(Good Luck out there.)
+What is something you learned by reviewing your peer's project?
+   
+    He had a second stage come up when you were done killing all of the enemies that was pretty groovy! It had some more powerful enemies which is something I probably wouldn't have thought to add to it. I took a look at his code for a minute and noticed that the boss was added using if statments I think.
+ 
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+
+    Definetly the second stage bit. I wish I'd done that with my game. It was clever and fun. Sure one of the sprites looked a tad bit weird, but it wasn't that big of a deal. 
+ 
+
+What suggestions would you have for your peer to improve his/her code?
+    
+    Not that this is completely needed for the assignment, but I would probably give the enemies the ability to shoot back and kill the player. I would also give them the ability to move, but again what he accomplished was cool.
+ 
+
+What could have been clearer or better commented?
+
+    I mean I feel like the game itself is pretty clear? But maybe I would add a "You Win" screen or something? Then again, I didn't so I don't know if I have the right the judge. The game was pretty self explanatory.
 
 
+Was there anything in the code that was confusing to you? If so, what?
 
+    Yes, I think the bit with the second stage and the boss was actually a tad bit confusing. While I learned from it, I definetly wouldn't say I've mastered the idea of it it.
 
+Does the repository contain an appropriate LICENSE?
 
+    I think? It doesn't have his first and last name, but he still edited it to show his github account, which might be okay?? I'm not totally sure.
 
+What is something he/she could add to the README.md to make it more descriptive?
 
+    I don't actually think there was anything in the README.md.
 
+Pay a compliment to your peer based on the quality of his/her code.
 
-
-On this assignment, I able to add two levels
-1)The first contains five tiny ships (each one has 100 health)
-2)The second contains four mini bosses and one boss (the mini bosses are a little harder to kill than the tiny ships, and the boss is the hardest to kill.)
-    2a)The mini boss gives you 1100 points and the boss gives you 1600 points.
-3)I added missiles as the "bullets"
-4)There is a score keeper in the top left corner of the screen.
-5)All of the enemies are able to move to a certain extent.
-6)I could not figure out how to make the enemies shoot back.
-7)I was able to get my background image to display, but it displayed in front of the game. I decided to just take it out of the game.
-8)I also tried to add music to go along with the game, but that attempt failed as well.
+    I really enjoyed how you added a second stage and a boss- it was really cool and clever!
